@@ -23,8 +23,8 @@ const userSchema = new Schema<IUser>(
     {
         timestamps: true,
         autoIndex: true,
-        toJSON:{ virtuals: true },
-        toObject: {virtuals: true},
+        toJSON:{ virtual: true },
+        toObject: {virtual: true},
 
     }
 );
